@@ -1,4 +1,7 @@
+Minimales Beispiel für eine dotnet-Applikation in OpenShift:   
+(läuft auf jedem OpenShift Cluster)   
 
+OpenShift erstellt automatisch eine BuildConfig und DeploymentConfig (etc.), baut ein Docker-Image in der internen Registry und lässt es laufen. 
 
 
 Erstellen in OC: 
@@ -8,7 +11,8 @@ Erstellen in OC:
     oc new-app openshift/dotnet~https://github.com/rschumm/hallodotnet.git
 
 
-Erstelle eine Route zum generierten Service - und die App sollte erreichbar sein. 
+
+Erstelle jetzt eine Route zum generierten Service - und die App sollte erreichbar sein. 
 
 
 alles wieder loswerden:  
