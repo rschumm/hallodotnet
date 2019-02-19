@@ -12,7 +12,11 @@ Erstellen in OC:
 
 
 
-Erstelle jetzt eine Route zum generierten Service - und die App sollte erreichbar sein. 
+Erstelle jetzt eine Route zum generierten Service - und die App sollte erreichbar sein. Alternativ auf der Kommantozeile: 
+
+    oc expose svc/hallodotnet
+
+
 
 
 alles wieder loswerden:  
