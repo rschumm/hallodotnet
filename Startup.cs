@@ -27,7 +27,7 @@ namespace hallodotnet
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hallo DotNet!");
+                await context.Response.WriteAsync("Hallo DotNet 2.1!");
             });
         }
     }
